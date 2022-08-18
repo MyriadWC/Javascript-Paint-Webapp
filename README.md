@@ -1,4 +1,3 @@
-paint
-=====
+Javascript Paint Program
 
-A badly written javascript paint program i've just started. Works best in google chrome. Doesn't work in firefox.
+A javascript paint program I wrote when I was 15. Works best in Google Chrome. Doesn't work in firefox.
