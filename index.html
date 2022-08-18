@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+       <meta charset="UTF-8">
+	<title>Paint</title>
+    <link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="toolbox.css">
+</head>
+<body>
+    </div>
+    <div id="toolbar">
+     <div id="topbar">
+       <div id="move_toolbar"></div>
+       <div id="brush_tab_button" class="tab_buttons current_button">Brush</div>
+       <div id="color_tab_button" class="tab_buttons">Color</div>
+     </div>
+      
+      <div id="brush_tab" class="tabs">
+       <div id="resize">
+              <span>Preview:</span>
+              <!--creating a mini canvas to preview your brush size-->
+              <canvas id="resize_preview"></canvas>
+              Size:<input type="text" value="5" id="size_box" maxlength="2">
+              <div id="resize_dec">-</div>
+              <div id="resize_inc">+</div><br/>
+       </div>
+      </div>
+        
+      <div id="color_tab" class="tabs">
+       <div id="current_color">
+           Selected Color:
+           <div id="current_color_square"></div>
+       </div>
+       <div id="recent_colors">
+           Recent:
+           <div id="recent_color_display"></div>
+       </div>
+       <div id="random_colors">
+           Random: <br/>
+       </div>
+       <button id="generate_more_colors">Get new colors</button>
+       <div id="grayscale_colors">
+           Grayscale:<br/>
+       </div>
+       <div id="standard_colors">
+           Standard:<br/>
+       </div>
+       <div id="hex_color_chooser">
+           Hex:<br/>
+            #<input type="text" id="hex_box" maxlength="6">
+       </div>
+      </div>
+        
+    </div>
+    <div id="stats">
+      <div id="canvas_wh">
+          Width:<input type="text" id="cw_tb">  
+          Height:<input type="text" id="ch_tb">
+      </div>
+      <div id="co-ordinates">X: 0 | Y: 0</div>
+      <button id="clear_canvas">Clear Canvas</button>
+    </div>
+   <!-- <div id="canvas_div"> -->
+       <canvas id="canvas"></canvas>
+       <div id="arrow_right"></div>
+       <div id="arrow_down"></div>
+   <!-- </div> -->
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    <script src="canvas.js"></script>
+    <script src="toolbox.js"></script>
+    <script src="bottom_bar.js"></script>
+</body>

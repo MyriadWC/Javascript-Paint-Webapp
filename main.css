@@ -1,0 +1,68 @@
+ *{
+              user-select:none;
+              -moz-user-select:none;
+              -webkit-user-select:none;
+              -ms-user-select:none;
+              -o-user-select:none;
+
+              font-family: Arial;
+
+           }
+           body{
+              background:gray;
+           }
+           #stats{
+             position:fixed;
+             background:#333;
+             bottom: 0px;
+             left: 0px;
+             width: 100%;
+             z-index:2;
+             display: inline-block;
+             color:white;
+           }
+           #co-ordinates{
+              display: inline-block;
+           }
+           #canvas_wh{
+              display:inline-block;
+           }
+           #canvas{
+              cursor:crosshair;
+              position:fixed;
+              background: #fff;
+              left:0px;
+              top:0px;
+              z-index:1;
+           }
+           #canvas_div{
+              overflow:hidden;
+              position:fixed;
+              /* making minus so line doesn't stop at sides of page*/
+              left:-200px;
+              top:-200px;
+              background:red;
+           }
+           #arrow_right {
+              width: 0; 
+              height: 0;
+              position:fixed;
+              border-top: 10px solid transparent;
+              border-bottom: 10px solid transparent;
+              border-left: 20px solid #3399cc;
+              z-index:1;
+              cursor:e-resize;
+           }
+           #arrow_down {
+              width: 0; 
+              height: 0;
+              position:fixed;
+              border-top: 20px solid #3399cc;
+              border-right: 10px solid transparent;
+              border-left: 10px solid transparent;
+              z-index:1;
+              cursor:s-resize;
+           }
+           #clear_canvas {
+              float:right;
+           }
