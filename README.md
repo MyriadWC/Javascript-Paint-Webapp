@@ -5,7 +5,7 @@ A javascript paint program I wrote when I was 15. Works best in Google Chrome. D
 <img src="./readme_img/1.png" width="60%"/>
 
 <b>Toolbox</b><br/><br/>
-It is possible to change between two toolbox tabs; brush and colour. The brush tab allows the brush size to be modified and gives a preview, whereas the colour tab enables a range of standard and personalised hex brush colours to be chosen from. <br/><br/>
+It is possible to change between two toolbox tabs; brush and colour. The brush tab allows the brush size to be modified and gives a preview, whereas the colour tab enables a range of standard and personalised hex brush colours to be chosen from. (I wrote colour without a u lol. When coding it's just easier to stick to US spellings) <br/><br/>
 <img src="./readme_img/2.png" height="250px"/>
 <img src="./readme_img/3.png" height="250px"/><br/>
 
